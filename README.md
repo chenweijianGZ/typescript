@@ -1,1 +1,1 @@
-## **认识 Typescript**
+# 认识 Typescript
