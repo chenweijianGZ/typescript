@@ -1,1 +1,1 @@
-# 首次git
+## 认识 Typescript
