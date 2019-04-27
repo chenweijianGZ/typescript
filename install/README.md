@@ -12,7 +12,7 @@ TypeScript源码需要进行编译以后才能运行，Node.js提供了编译环
 
 ### 三、使用Visual Studio Code进行开发
 
-####1.创建tsconfig.json</br>
+#### 1.创建tsconfig.json</br>
   typescript 的项目都需要一个tsconfig.json  
   输入命令`tsc --init` 会自动创建tsconfig.json.  
   建议修改配置如下图:
@@ -42,7 +42,7 @@ TypeScript源码需要进行编译以后才能运行，Node.js提供了编译环
 	      "node_modules"
 	  ]
 	}
-####2.配置编译TypeScript
+#### 2.配置编译TypeScript
   打开vscode，按`ctrl+shift+b`,就会出现一次编译和监听编译两个选择，分别如下：
 
 * `tsc:build - xx/tsconfig.json` 一次编译
