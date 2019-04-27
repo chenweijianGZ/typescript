@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      /* 编译成 es5 */ 
+      "target": "es5",
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "removeComments": true,
+      "sourceMap": true,
+      "outDir": "js",
+      "allowJs": true
+  },
+  "include":[
+      "ts"
+  ],
+  "exclude": [
+      "js",
+      "node_modules"
+  ]
+}
