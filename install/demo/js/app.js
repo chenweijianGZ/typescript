@@ -1,2 +1,3 @@
-var a = 'hello ts';
+var coder = 'william';
+console.log(coder);
 //# sourceMappingURL=app.js.map

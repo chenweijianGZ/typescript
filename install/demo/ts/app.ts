@@ -1,1 +1,2 @@
-let a = 'hello ts';
+let coder = 'william'
+console.log(coder);

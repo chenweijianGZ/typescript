@@ -7,7 +7,7 @@ TypeScript源码需要进行编译以后才能运行，Node.js提供了编译环
 安装好Node.js后，打开cmd窗口,输入一下命令:  `npm install -g typescript`,全局安装typescript包，安装成功后即可编译Typescript文件.
 
 * 查看版本 `tsc -v`
-* 编译文件 `tsc fileName.js`
+* 编译文件 `tsc fileName.ts`
 * 安装库的d.ts文件 `npm install --save-g @types/node`
 
 ### 三、使用Visual Studio Code进行开发
@@ -46,9 +46,11 @@ TypeScript源码需要进行编译以后才能运行，Node.js提供了编译环
   打开vscode，按`ctrl+shift+b`,就会出现一次编译和监听编译两个选择，分别如下：
 
 * `tsc:build - xx/tsconfig.json` 一次编译
-* `tsc.watch - xx/tsconfig.json` 监听编译
+* `tsc:watch - xx/tsconfig.json` 监听编译
 
-到此一个ts项目就配置完成.
+
+到此一个ts项目就配置完成  
+Demo地址:[Demo](https://github.com/chenweijianGZ/typescript/tree/master/install/demo)
 
     
 
